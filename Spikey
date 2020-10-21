@@ -1,0 +1,22 @@
+public class Spikey {
+    public static void main (String[] args) {
+        down();
+        left(); right();
+        left(); down(); right();
+        right(); up(); left();
+        right(); left();
+        up();
+    }
+    public static void down (String[] args) {
+        System.out.println("\\/");
+    }
+    public static void left (String[] args) {
+        System.out.println("\\\\");
+    }
+    public static void right (String[] args) {
+        System.out.println("//");
+    }
+    public static void up (String[] args) {
+        System.out.println("/\\");
+    }
+}
